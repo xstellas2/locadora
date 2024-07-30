@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-
+from locadora.models import Filme
 
 def minha_view_simples(request):
     return HttpResponse("Olá, mundo! Esta é uma resposta simples.")
